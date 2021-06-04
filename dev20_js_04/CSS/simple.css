@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    font-size: 1rem;
+    display: flex;
+    min-height: 100vh;
+}
+.img1{
+    width: 216px;
+}
+.imghover1{
+    margin-top: 25px;
+}
+main{
+    background-color:rgb(236, 236, 236);
+    flex:1;
+    border: 1px solid black;
+}
+
+aside{
+    width:15%;
+    min-width:200px;
+    display:flex;
+    flex-direction: column;
+}
+ul{
+    background-color:#2f4f4f;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.sidefooter{
+    height:180px;
+    margin-top:auto;
+    border: 1px solid black;
+}
+li{
+    border: 1px solid black;
+    height:60px;
+}
+.imghover{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.imghover{
+    display: block;
+    text-align: center;
+  }
+
+.mainChat{
+    text-align: center;
+}
+.textChat{
+    position: fixed; /* 要素の位置を固定する */
+    bottom: 0; /* 基準の位置を画面の一番下に指定する */
+    right: 0; /* 基準の位置を画面の一番右に指定する */
+    width: 300px; /* 幅を指定する */
+    border: 3px solid grey; 
+}
+.chatlog{
+    height: 500px;
+    border: 1px grey;
+    overflow-y: scroll;
+    margin: 20px;
+    white-space: nowrap;
+    background-color: white;
+}
+/* ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®å¹…ã®è¨­å®š */
+.chatlog::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®èƒŒæ™¯ã®è¨­å®š */
+.chatlog::-webkit-scrollbar-track {
+  border-radius: 5px;
+  box-shadow: 0 0 4px #aaa inset;
+}
+
+/* ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®ã¤ã¾ã¿éƒ¨åˆ†ã®è¨­å®š */
+.chatlog::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background:gray;
+}
+.inputName2{
+    margin-top: 3px;
+} 
+.inputName{
+    margin-right: 900px;
+    width: 100px;
+    height: 18px;
+}
+.button{
+    margin-right: -10px;
+    width: 100px;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0 ,0);
+    border-radius:10px;
+    background-color:white;
+}  
+.textareaName{
+    margin-top: -20px;
+    height: 135px;
+    width: 1200px;
+}
+p{
+    margin-left: 650px;
+    padding: auto;
+    max-width: 500px;
+    height:auto;
+    border-radius: 12px;
+    background-color: bisque;
+}
+p.nomal{
+    word-break: normal;
+   }
+   
+p.break{
+     word-break: break-all;
+   }
+   
+p.keep{
+     word-break: keep-all;
+   }
